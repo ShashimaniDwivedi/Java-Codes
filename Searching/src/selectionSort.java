@@ -7,10 +7,7 @@ public class selectionSort {
             int current = i;
             for (int j = i+1; j < arr.length; j++) {
                 if (arr[current] > arr[j]) {
-                    //int temp = arr[current];
-                    //arr[current] = arr[j];
                     current=j;
-                    //arr[j] = temp;
                 }
             }
             if(arr[current]!=i)
