@@ -22,7 +22,7 @@ public class AICDemo {
            System.out.println("driver");//Anonymous inner a class
        }
    };
-//        car obj=()-> System.out.println("driver");
+       car obj1=()-> System.out.println("driver");
 //         obj.drive();//lambda expression
 
     }
