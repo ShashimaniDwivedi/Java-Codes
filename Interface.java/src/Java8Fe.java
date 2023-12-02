@@ -18,11 +18,11 @@ interface a
     {
         System.out.println("in show");
     }
-    //we can override default method
-  /*  public void config()
+    //we can override default method and static method
+    public void config()
     {
         System.out.println("===");
-    }*/
+    }
      void abc()
     {
         System.out.println("----");
