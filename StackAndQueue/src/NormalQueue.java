@@ -10,6 +10,7 @@ class NormalQueue {
   void Enqueue(int x) { // TC->0(1)
     if (isFull()) {
       System.out.println("Queue is Full");
+      return;
     }
     arr[size] = x;
     size++;
@@ -19,6 +20,7 @@ class NormalQueue {
   void Dequeue() { //TC->O(n)
     if (isEmpty()) {
       System.out.println("Queue is Empty");
+      return;
     }
     else {
       System.out.println("Deleted Element is : " + arr[front]);
